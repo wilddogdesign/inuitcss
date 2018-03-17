@@ -9,5 +9,8 @@
     "./components",
     "./utilities"
   ],
-  "destination":  "_documentation/"
+  "destination":  "_documentation/",
+  "css": [
+    "kss-assets/inuit.css"
+  ]
 }

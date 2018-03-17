@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint && mocha test/run.js",
     "lint": "./node_modules/.bin/stylelint \"**/*.scss\" --syntax scss",
-    "docs": "sass example.main.scss:inuit.css --sourcemap=none && ./node_modules/.bin/kss --config kss.config.json"
+    "docs": "sass example.main.scss:_documentation/kss-assets/inuit.css --sourcemap=none && ./node_modules/.bin/kss --config kss.config.json"
   },
   "repository": {
     "type": "git",
