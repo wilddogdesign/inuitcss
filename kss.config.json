@@ -1,0 +1,13 @@
+{
+  "title": "inuitcss",
+  "source": [
+    "./settings",
+    "./tools",
+    "./generic",
+    "./elements",
+    "./objects",
+    "./components",
+    "./utilities"
+  ],
+  "destination":  "_documentation/"
+}

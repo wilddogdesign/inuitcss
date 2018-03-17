@@ -5,7 +5,8 @@
   "main": "example.main.scss",
   "scripts": {
     "test": "npm run lint && mocha test/run.js",
-    "lint": "./node_modules/.bin/stylelint \"**/*.scss\" --syntax scss"
+    "lint": "./node_modules/.bin/stylelint \"**/*.scss\" --syntax scss",
+    "docs": "sass example.main.scss:inuit.css --sourcemap=none && ./node_modules/.bin/kss --config kss.config.json"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "glob": "^7.1.2",
+    "kss": "^3.0.0-beta.18",
     "mocha": "^3.5.2",
     "node-sass": "^4.5.3",
     "sass-true": "^3.0.0",
