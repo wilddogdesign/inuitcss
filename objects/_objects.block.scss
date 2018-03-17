@@ -2,10 +2,32 @@
    #BLOCK
    ========================================================================== */
 
-/**
- * Stacked image-with-text object. A simple abstraction to cover a very commonly
- * occurring design pattern.
- */
+// Objects
+//
+// Styleguide 5
+
+// Block object
+//
+// Stacked image-with-text object. A simple abstraction to cover a very commonly
+// occurring design pattern.
+//
+// .o-block--flush  - Modifier that eliminates the spacing between the image and the body.
+// .o-block--tiny   - Modifier that reduces the spacing between the image and the body to tiny.
+// .o-block--small  - Modifier that reduces the spacing between the image and the body to small.
+// .o-block--large  - Modifier that increases the spacing between the image and the body to large.
+// .o-block--huge   - Modifier that increases the spacing between the image and the body to huge.
+// .o-block--right  - Modifier that aligns the image and the text to the right.
+// .o-block--left   - Modifier that aligns the image and the text to the left.
+//
+// Markup:
+// <div class="o-block  {{modifier_class}}">
+//   <img class="o-block__img" src="http://placehold.it/450x300/000000/ffffff">
+//   <p class="o-block__body">
+//     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+//   </p>
+// </div>
+//
+// Styleguide 5.1
 
 .o-block {
   display: block;
