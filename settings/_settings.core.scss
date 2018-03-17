@@ -2,14 +2,30 @@
 //   #CORE
 //   ======================================================================== */
 
+// Settings
+//
+// Styleguide 1
+
+// Core settings
+//
 // This core file sets up inuitcss’ most important setup variables. They
 // underpin a lot of how the framework functions and should be modified and
 // preconfigured with caution.
+//
+// Styleguide 1.1
 
 
 
+// Baseline
+//
 // Baseline grid lines height.
 // Every spacing metric should be based on this.
+//
+// ```
+// $inuit-global-baseline: 6px !default;
+// ```
+//
+// Styleguide 1.1.1
 
 $inuit-global-baseline:     6px !default;
 
