@@ -89,15 +89,15 @@ $inuit-responsive-spacing-sizes: null !default;
 // Don't output anything if no responsive spacings are defined.
 @if ($inuit-responsive-spacing-properties != null) {
 
-  @each $property-namespace, $property in $inuit-responsive-spacing-properties {
+  @each $inuit-bp-name, $inuit-bp-value in $mq-breakpoints {
 
-    @each $direction-namespace, $direction-rules in $inuit-responsive-spacing-directions {
+    @include mq($from: $inuit-bp-name) {
 
-      @each $size-namespace, $size in $inuit-responsive-spacing-sizes {
+      @each $property-namespace, $property in $inuit-responsive-spacing-properties {
 
-        @each $inuit-bp-name, $inuit-bp-value in $mq-breakpoints {
+        @each $direction-namespace, $direction-rules in $inuit-responsive-spacing-directions {
 
-          @include mq($from: $inuit-bp-name) {
+          @each $size-namespace, $size in $inuit-responsive-spacing-sizes {
 
             .u-#{$property-namespace}#{$direction-namespace}#{$size-namespace}#{$inuit-widths-breakpoint-separator}#{$inuit-bp-name} {
 

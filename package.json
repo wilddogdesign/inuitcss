@@ -1,6 +1,6 @@
 {
   "name": "inuitcss",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Extensible, scalable, Sass-based, OOCSS framework for large and long-lasting UI projects.",
   "main": "example.main.scss",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inuitcss/inuitcss.git"
+    "url": "git+https://github.com/wilddogdesign/inuitcss.git"
   },
   "keywords": [
     "oocss",
@@ -27,9 +27,9 @@
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/inuitcss/inuitcss/issues"
+    "url": "https://github.com/wilddogdesign/inuitcss/issues"
   },
-  "homepage": "https://github.com/inuitcss/inuitcss#readme",
+  "homepage": "https://github.com/wilddogdesign/inuitcss#readme",
   "dependencies": {
     "sass-mq": "^3.3.2"
   },
